@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/mediaqueries.css">
+    <title>covid screening</title>
+</head>
+
+<body>
+    <h1 class="banner">
+        Covid-19 screening form
+    </h1>
+
+    <form>
+        <p class="input-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="fullname">
+        </p>
+        <p class="input-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="email address">
+        </p>
+        <p class="input-group">
+            <label for="cellnumber">Cellphone Number</label>
+            <input type="text" name="cellnumber" placeholder="cellphone number">
+        </p>
+
+        <p class="input-group">
+            <label for="provinces">Province:</label>
+
+            <select name="provinces" id="provinces">
+                <option value="Gauteng">Gauteng</option>
+                <option value="Western Cape">Western Cape</option>
+                <option value="Mpumalanga">Mpumalanga</option>
+                <option value="Eastern Cape">Eastern Cape</option>
+                <option value="Nothern Cape">Nothern Cape</option>
+                <option value="Limpopo">Limpopo</option>
+                <option value="North West">North West</option>
+                <option value="KZN">KZN</option>
+                <option value="Free State">Free State</option>
+            </select>
+        </p>
+
+        <p class="input-group">
+            <label>age group</label>
+            <input type="radio" id="child" name="age" value="child">
+            <label for="child">0 - 13 years</label>
+            <input type="radio" id="teenager" name="age" value="teenager">
+            <label for="teenager">14 - 20 years</label>
+            <input type="radio" id="adult" name="age" value="other">
+            <label for="adult">21+</label>
+        </p>
+
+
+        <p class="input-group">
+            <label for="symptoms">Your symptops</label>
+
+            <input type="checkbox" id="fever" name="symptom" value="fever">
+            <label for="fever">Fever</label>
+            <input type="checkbox" id="cough" name="symptom" value="cough">
+            <label for="cough">Cough</label>
+            <input type="checkbox" id="noSmell" name="symptom" value="noSmell">
+            <label for="noSmell">Loss of smell</label>
+            <input type="checkbox" id="noTaste" name="symptom" value="noTaste">
+            <label for="noTaste">Loss of taste</label>
+        </p>
+
+        <p>
+            <input type="submit">
+        </p>
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>
