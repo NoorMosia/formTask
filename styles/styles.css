@@ -40,10 +40,13 @@ input[type=text], input[type=number], input[type=email], select {
     border-bottom: 1px solid grey;
     width: 60%;
     padding: 10px 0;
+    font-size: .8rem;
 }
 
 input::placeholder {
     text-transform: capitalize;
+    font-size: .8rem;
+    font-weight: 300;
 }
 
 label {
